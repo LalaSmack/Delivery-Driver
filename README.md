@@ -10,6 +10,9 @@ A Unity game where you play as a delivery driver navigating a city, picking up p
 - Only one package can be held at a time.
 - Deliver the package to the customer to complete the task.
 
+## Demo
+![Demo](Delivery_Driver.gif)
+
 ## Features
 
 - **Single Package Rule** – Pick up one package at a time.
