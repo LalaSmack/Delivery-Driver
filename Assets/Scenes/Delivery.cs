@@ -4,8 +4,8 @@ public class Delivery : MonoBehaviour
 {
    bool hasPackage ;
    [SerializeField] float destoryDelay = 0.5f;
-   [SerializeField] Color32 hasPackageColor = new Color32(1, 1, 1, 1);
-   [SerializeField] Color32 noPackageColor = new Color32(1, 1, 1, 1);
+   [SerializeField] Color32 hasPackageColor = new Color32(255, 144, 144, 255);
+   [SerializeField] Color32 noPackageColor = new Color32(255, 255, 255, 255);
    SpriteRenderer spriteRenderer;
    private void Start() {
       spriteRenderer = GetComponent<SpriteRenderer>();
